@@ -1,0 +1,25 @@
+[404_title]
+    other = "404"
+[404_description]
+    other = "Página não encontrada"
+[index_projects_allProjects]
+    other = "Todos os projetos"
+[index_blog_latestPosts]
+    other = "Publicação mais recente"
+[index_blog_allPosts]
+    other = "Todas as publicações"
+[index_blog_readMore]
+    other = "Ler mais"
+[index_currentTime]
+    other = "Meu horário local"
+[nav_backToSection]
+    other = "Retornar para {{ .Title }}"
+[nav_main]
+    other = "principal"
+[blog_readingTime]
+    one = "{{ .Count }} minuto de leitura"
+    other = "{{ .Count }} minutos de leitura"
+[blog_shareThis]
+    other = "Compartilhar"
+[footer_text]
+    other = "[**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/) theme for [Hugo](http://gohugo.io/). Made with [<i class=\"fa fa-heart\"></i> and <i class=\"fa fa-coffee\"></i>](https://victoria.dev) by open source contributors."

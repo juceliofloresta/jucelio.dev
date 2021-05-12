@@ -1,0 +1,14 @@
+{{ range .Pages.ByPublishDate.Reverse }}
+    <li class="post-item pb-3">
+        <span class="has-text-weight-semibold"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></span>
+                {{ if .Params.date }}
+                    <span class="is-lowercase">,
+                    {{ if eq .Site.Language.Lang "pt-br" }}
+                        {{ .Date.Day }} de {{ index $.Site.Data.mes (printf "%d" .Date.Month) }} de {{.Date.Year }} 
+                    {{ else }}
+                        {{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}
+                    {{ end }}
+                    </span>
+                {{ end }}
+    </li>
+{{ end }}

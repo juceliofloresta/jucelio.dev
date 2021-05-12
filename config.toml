@@ -1,0 +1,93 @@
+baseURL                          = "https://jucelio.dev/"
+theme                            = "default"
+DefaultContentLanguage           = "en-ca"                    
+defaultContentLanguageInSubdir   = true
+
+[author]
+    name                         = "Jucelio Floresta"
+    email                        = "jucelio.floresta@gmail.com"
+
+[params]
+    themeStyle                   = "auto"   # ["light", "dark", "auto" ]
+    favicon                      = "/img/fav.ico"          
+    showRSSButton                = true                   
+    fadeIn                       = false                    
+    fadeInIndex                  = false                   
+    dateFormat                   = "January 2, 2006"
+    googleFonts                  = ["Roboto:wght@200..900","Jet","Rubik"]
+
+    [params.home]
+        introHeight              = "medium" # ["medium", "large", "fullheight"]
+        showLatest               = true                    
+        showAllPosts             = false                   
+        allPostsArchiveFormat    = false                   
+        numberOfProjectsToShow   = 3                      
+        timeZone                 = "America/Sao_Paulo"   
+        timeFormat               = "en"                 
+    [params.projects]
+        useTwoColumns            = false                  
+
+
+    [[params.social]]
+        url   = "https://github.com/juceliofloresta"
+        icon  = "github"
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://linkedin.com/in/juceliofloresta"
+        icon  = "linkedin-in"
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://twitter.com/juceliofloresta"
+        icon  = "twitter"
+        icon_pack = "fab"
+
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+        taskLists = false
+        strikethrough = true
+        typographer = true
+    [markup.goldmark.renderer]
+        unsafe = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "friendly"
+    tabWidth = 2
+
+[languages]
+    [languages.en-ca]
+        languageName     = "English"
+        languageCode     = "en-CA"
+        contentDir       = "content/en-ca"
+        weight           = 10
+        title            = "Jucelio Floresta : Software Engineer"
+        countryFlag      = "&#127464;&#127462;"
+        [languages.en-ca.params]
+            description  = "Content about software engineering, golang, gameplay, open source and sci-fi reading."
+            footerText   = "All work (CC BY 4.0) [Jucelio Floresta](https://jucelio.dev/en-ca)"
+            copyright    = "All work (CC BY 4.0) Jucelio Floresta"
+
+    [languages.pt-br]
+        languageName     = "Português"
+        languageCode     = "pt-BR"
+        countryFlag      = "&#127463;&#127479;"
+        contentDir       = "content/pt-br"
+        weight           = 20
+        title            = "Jucelio Floresta : Engenheiro de Software"
+        [languages.pt-br.params]
+            description  = "Conteúdo sobre engenharia de software, golang, gameplay, open source e leitura de ficção científica."
+            footerText   = "Todo este trabalho (CC BY 4.0) [Jucelio Floresta](https://jucelio.dev/pt-br)"
+            copyright    = "Todo este trabalho (CC BY 4.0) Jucelio Floresta"
