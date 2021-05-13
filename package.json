@@ -1,0 +1,24 @@
+{
+  "name": "jucelio-floresta",
+  "version": "0.0.1",
+  "description": "A personal website",
+  "main": "none.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juceliofloresta/juceliofloresta.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juceliofloresta/juceliofloresta.github.io/issues"
+  },
+  "homepage": "https://jucelio.dev/en-ca/",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2"
+  }
+}
