@@ -17,7 +17,7 @@ defaultContentLanguageInSubdir   = true
     googleFonts                  = ["Roboto:wght@200..900","Jet","Rubik"]
 
     [params.home]
-        introHeight              = "medium" # ["medium", "large", "fullheight"]
+        introHeight              = "medium" # ["small","medium", "large", "fullheight"]
         showLatest               = true                    
         showAllPosts             = false                   
         allPostsArchiveFormat    = false                   
