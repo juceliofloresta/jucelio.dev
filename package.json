@@ -1,6 +1,6 @@
 {
   "name": "jucelio-floresta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A personal website",
   "main": "none.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "homepage": "https://jucelio.dev/en-ca/",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss-cli": "^7.1.2"
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": ">=8.2.10"
   }
 }
