@@ -12,7 +12,7 @@ Theme is [introduction][introduction] based.
 - About     [english][about-en-ca] | [portuguese][about-pt-br]
 - Blog      [english][blog-en-ca] | [portuguese][blog-pt-br]
 - Projects  [english][projects-en-ca] | [portuguese][projects-pt-br]
-- Contact   [english][contact-en-ca] | [portuguese][contacts-pt-br]
+- Contact   [english][contact-en-ca] | [portuguese][contact-pt-br]
 
 [me]:https://jucelio.dev/en-ca/
 [home-en-ca]:https://jucelio.dev/en-ca/
