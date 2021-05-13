@@ -1,7 +1,7 @@
 baseURL                          = "https://jucelio.dev/"
 theme                            = "default"
 DefaultContentLanguage           = "en-ca"                    
-defaultContentLanguageInSubdir   = true
+defaultContentLanguageInSubdir   = false
 
 [author]
     name                         = "Jucelio Floresta"
