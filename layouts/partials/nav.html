@@ -108,7 +108,7 @@
             {{ end }}
             {{ end }}
             
-            <a class="navbar-item" href="cv_jucelio.pdf">CURRICULUM</a>
+            <a class="navbar-item" href="{{ .Site.BaseURL | relLangURL }}/cv_jucelio.pdf">CURRICULUM</a>
 
             {{ if and .Site.Params.showRSSButton .Site.RSSLink }}
             <a class="navbar-item" href="{{ .Site.RSSLink | relLangURL }}"><i class="fas fa-rss"></i></a>
