@@ -67,6 +67,7 @@ defaultContentLanguageInSubdir   = true
     style = "friendly"
     tabWidth = 2
 
+
 [languages]
     [languages.en-ca]
         languageName     = "English"
