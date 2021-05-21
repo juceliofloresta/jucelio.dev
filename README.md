@@ -3,7 +3,12 @@
 This is my personal [website][me]. I'm using [Hugo][hugo] to generate the static
 files. The theme is [introduction][introduction] based.
 
-## Sections
+The [Discussions Tab][discussions] are the space to networking, start
+conversations. Think of this area like a way for you to suggest things to me, to
+exchange an idea, and even build something together! Feel free to show me
+something you did.
+
+## Website Sections
 
 - Home      [english][home-en-ca]&#9;|&#9;[portuguese][home-pt-br]
 - About     [english][about-en-ca]&#9;|&#9;[portuguese][about-pt-br]
