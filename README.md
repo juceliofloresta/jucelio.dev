@@ -1,9 +1,11 @@
 <h1 align="center">
   <br>
-  [Personal Website][me]
+  Personal Website
 </h1>
 <p align="center">
-    A multilingual personal page with about, blog, projects, contact and curriculum sections.
+  A multilingual personal page with about, blog, projects, contact and
+  curriculum sections.
+  <br>
 </p>
 
 This is my personal [website][me]. I'm using [Hugo][hugo] to generate the static
