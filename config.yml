@@ -1,0 +1,171 @@
+baseURL: "https://jucelio.dev/"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: false
+    minifyOutput: true
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+params: 
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+    displayFullLangName: true
+    label:
+        text: "Jucelio Floresta"
+        #icon= /apple-touch-icon.png
+        #iconHeight: 35
+        
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        #favicon: "<link / abs url>"
+        #favicon16x16: "<link / abs url>"
+        #favicon32x32: "<link / abs url>"
+        #apple_touch_icon: "<link / abs url>"
+        #safari_pinned_tab: "<link / abs url>"
+        
+    socialIcons:
+        - name: linkedin
+          url: "https://linkedin.com/in/juceliofloresta"
+        - name: github
+          url: "https://github.com/juceliofloresta"
+        - name: twitter
+          url: "https://twitter.com/juceliofloresta"
+        - name: telegram
+          url: "https://t.me/juceliofloresta"
+        - name: email
+          url: "mailto:jucelio.floresta@gmail.com"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
+
+languages:
+  en:
+    title: Jucelio Floresta
+    languageName: " :canada: English"
+    weight: 1
+    contentDir: "content/en"
+
+    params:
+        title: Jucelio Floresta
+        description: "Jucelio Floresta, software developer with Python and Go, open-source, writer and pixel art lover."
+        keywords: [Software Developer, Blog Posts, Python, Go, Golang, Open-source, Writer, Tibia, Pixel Art]
+        images: []
+        DateFormat: "January 2, 2006"
+
+        # home-info mode
+        homeInfoParams:
+            Title: "Jucelio Floresta"
+            Content: "Welcome, I hope that you have a good read."
+
+        cover:
+            hidden: true # hide everywhere but not in structured data
+            hiddenInList: true # hide on list pages and home
+            hiddenInSingle: true # hide on single page
+
+        # for search
+        # https://fusejs.io/api/options.html
+        fuseOpts:
+            isCaseSensitive: false
+            shouldSort: true
+            location: 0
+            distance: 1000
+            threshold: 0.4
+            minMatchCharLength: 0
+            keys: ["title", "permalink", "summary", "content"]
+
+    menu:
+        main:
+            - identifier: posts
+              name: posts
+              url: /posts/
+              weight: 1
+            - identifier: tags
+              name: tags
+              url: /tags/
+              weight: 2
+            - identifier: about
+              name: about
+              url: /about/
+              weight: 3
+            - identifier: contact
+              name: contact
+              url: /contact/
+              weight: 4
+
+  pt-br:
+    languageName: ":brazil: Português"
+    title: Jucelio Floresta
+    weight: 2
+    contentDir: "content/pt-br"
+    params:
+        languageAltTitle: "pt-br"
+        description: "Jucelio Floresta, desenvolvedor de software com Python e Go, contribuidor open-source, escritor e entusiasta de jogos pixelados."
+        keywords: [Desenvolvimento de Software, Publicações, Python, Go, Golang, Open-source, Escrita, Tibia, Pixel Art]
+        images: []
+        DateFormat: "January 2, 2006"
+
+        homeInfoParams:
+            Title: "Jucelio Floresta"
+            Content: "Boas vindas, espero que tenha uma boa leitura."
+
+        cover:
+            hidden: true # hide everywhere but not in structured data
+            hiddenInList: true # hide on list pages and home
+            hiddenInSingle: true # hide on single page
+
+
+    menu:
+        main:
+            - identifier: postagens
+              name: publicações
+              url: /publicacoes/
+              weight: 1
+            - identifier: tags
+              name: tags
+              url: /tags/
+              weight: 2
+            - identifier: sobre
+              name: sobre
+              url: /sobre/
+              weight: 3
+            - identifier: contato
+              name: contato
+              url: /contato/
+              weight: 4
+
