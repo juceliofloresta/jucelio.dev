@@ -1,5 +1,5 @@
 baseURL: "https://jucelio.dev/"
-paginate: 5
+paginate: 6
 theme: PaperMod
 
 enableRobotsTXT: true
